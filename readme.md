@@ -25,13 +25,13 @@ You must add your lootbox items to `ox_inventory/data/items.lua`.
 Example:  
 
 ```lua
-['cigarettes_pack'] = {
-    label = "Cigarette Pack",
+['gold_bow'] = {
+    label = "Gold Box",
     weight = 1,
     stack = true,
     close = true,
     server = {
-        export = "old_smartThings.cigarettePack",
+        export = "old_lootBox.openLootBox",
     }
 },
 
