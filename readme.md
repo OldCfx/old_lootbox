@@ -25,7 +25,7 @@ You must add your lootbox items to `ox_inventory/data/items.lua`.
 Example:  
 
 ```lua
-['gold_bow'] = {
+['gold_box'] = {
     label = "Gold Box",
     weight = 1,
     stack = true,
